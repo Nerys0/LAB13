@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratorio trece</title>
+</head>
+<body>
+    <scrip>
+        //funciones matematicas
+        funcion sumar(a,b){
+            retur a+b;
+
+        }
+        funcion restar(a,b){
+            retur a-b;
+
+        }
+        funcion multi(a,b){
+            retur a*b;
+        }
+        funcion divi(a,b){
+            retur a/b;
+        }
+        // funcion calculadora
+        funcion calculadora(n1,n2operacion){
+            switch(operacion){
+                case 'sumar';
+                retur sumar(n1,n2);
+                case 'restar';
+                retur restar(n1,n2);
+                case 'multi';
+                retur multi(n1,n2);
+                case 'divi';
+                retur divi(n1,n2);
+                default:
+                retur"operacion no valida"...;
+
+
+
+            }
+        } 
+        let numero1=parseFloat (prompt("ingrese el primer numero:"));
+        let numero2=parseFloat (prompt ("ingrese el segundo numero"));
+        let operacion=prompt (ingrese la opcion (sumar,restar,multi,divi)")
+        let resultado=calculadora (numero1,numero2,operacion);
+        Console.log ("El resultado es: "+resultado);
+        document.write ("el resultado es: ")
+
+        }
+            
+
+                
+
+    </scrip>
+</body>
+</html>
