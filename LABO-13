@@ -7,7 +7,7 @@
 </head>
 <body>
     <scrip>
-        //funciones matematicas
+        // 
         funtion sumar(a,b){
             retur a+b;
 
